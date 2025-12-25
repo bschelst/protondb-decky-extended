@@ -3,12 +3,14 @@
 
 Display tappable ProtonDB badges on your game pages, extended edition.
 
+
 ![ProtonDB Badges](./assets/screenshot.jpg)
 
 ## How it works
 
-This plugin will grab ProtonDB ratings from the ProtonDB API and overlay a tappable badge on the game page. Tapping the badge takes you to the ProtonDB page for the game.
-This is an update on the protondb-decky plugin.
+This plugin retrieves ProtonDB ratings from the ProtonDB API and overlays a tappable badge on the game page. Tapping the badge opens the corresponding ProtonDB page for the game.
+This is an update to the protondb-decky plugin, extending it with a Submit button. It allows users to submit a report directly from their library.
+The new submit button can be disabled in the settings.
 
 ## Options
 
