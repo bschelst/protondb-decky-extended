@@ -1,16 +1,16 @@
 # Changelog
-All notable changes to this project will be documented in this file.
+All notable changes to this project are documented in this file.
 
-The format is based on Keep a Changelog,
-and this project adheres to Semantic Versioning.
+The format is based on *Keep a Changelog*,
+and this project adheres to *Semantic Versioning*.
 
 ## [Unreleased]
 
 ## [0.0.1] - 2025-12-25
 ### Added
-- Removed border of submit button as per other button
-- If no report is available, show "NO REPORT" button, and show submit button.
-- Changed submit button background color.
+- Removed the border from the submit button to match other buttons.
+- When no report is available, display a *NO REPORT** button and show the submit button.
+- Changed the submit button background color.
 
 ### Fixed
 
