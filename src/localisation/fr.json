@@ -30,6 +30,7 @@
     "submit": "SOUMETTRE",
     "login": "Connexion",
     "loading": "...",
+    "noReport": "AUCUN RAPPORT",
     "disableSubmit": "Désactiver l'envoi",
     "disableSubmitDesc": "Masquer le bouton d'envoi qui permet de contribuer des rapports à ProtonDB",
     "enableStoreBadge": "Activer le badge sur les pages du magasin",

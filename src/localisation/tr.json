@@ -30,6 +30,7 @@
     "submit": "GÖNDER",
     "login": "Giriş yap",
     "loading": "...",
+    "noReport": "RAPOR YOK",
     "disableSubmit": "Göndermeyi devre dışı bırak",
     "disableSubmitDesc": "ProtonDB'ye rapor göndermeyi sağlayan gönder düğmesini gizle",
     "enableStoreBadge": "Mağaza sayfalarında rozeti etkinleştir",

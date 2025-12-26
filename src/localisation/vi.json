@@ -30,6 +30,7 @@
     "submit": "GỬI",
     "login": "Đăng nhập",
     "loading": "...",
+    "noReport": "KHÔNG CÓ BÁO CÁO",
     "disableSubmit": "Vô hiệu hóa gửi",
     "disableSubmitDesc": "Ẩn nút gửi cho phép đóng góp báo cáo cho ProtonDB",
     "enableStoreBadge": "Bật huy hiệu trên trang cửa hàng",

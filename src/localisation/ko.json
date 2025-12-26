@@ -30,6 +30,7 @@
     "submit": "제출",
     "login": "로그인",
     "loading": "...",
+    "noReport": "보고서 없음",
     "disableSubmit": "제출 비활성화",
     "disableSubmitDesc": "ProtonDB에 보고서를 제출할 수 있는 제출 버튼 숨기기",
     "enableStoreBadge": "상점 페이지에서 배지 활성화",

@@ -30,6 +30,7 @@
     "submit": "ENVIAR",
     "login": "Entrar",
     "loading": "...",
+    "noReport": "SEM RELATÓRIO",
     "disableSubmit": "Desativar envio",
     "disableSubmitDesc": "Ocultar o botão de envio que permite contribuir relatórios para o ProtonDB",
     "enableStoreBadge": "Ativar medalha nas páginas da loja",

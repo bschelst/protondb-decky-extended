@@ -30,6 +30,7 @@
     "submit": "WYŚLIJ",
     "login": "Zaloguj się",
     "loading": "...",
+    "noReport": "BRAK RAPORTU",
     "disableSubmit": "Wyłącz wysyłanie",
     "disableSubmitDesc": "Ukryj przycisk wysyłania, który umożliwia przesyłanie raportów do ProtonDB",
     "enableStoreBadge": "Włącz odznakę na stronach sklepu",

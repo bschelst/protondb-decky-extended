@@ -30,6 +30,7 @@
     "submit": "SKICKA",
     "login": "Logga in",
     "loading": "...",
+    "noReport": "INGEN RAPPORT",
     "disableSubmit": "Inaktivera skicka",
     "disableSubmitDesc": "Dölj skicka-knappen som möjliggör bidrag av rapporter till ProtonDB",
     "enableStoreBadge": "Aktivera märke på butikssidor",

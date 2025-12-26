@@ -30,6 +30,7 @@
     "submit": "VERZENDEN",
     "login": "Inloggen",
     "loading": "...",
+    "noReport": "GEEN RAPPORT",
     "disableSubmit": "Verzenden uitschakelen",
     "disableSubmitDesc": "Verberg de verzendknop waarmee rapporten naar ProtonDB kunnen worden bijgedragen",
     "enableStoreBadge": "Badge inschakelen op winkelpagina's",

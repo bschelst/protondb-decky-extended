@@ -30,6 +30,7 @@
     "submit": "ส่ง",
     "login": "เข้าสู่ระบบ",
     "loading": "...",
+    "noReport": "ไม่มีรายงาน",
     "disableSubmit": "ปิดใช้งานการส่ง",
     "disableSubmitDesc": "ซ่อนปุ่มส่งที่อนุญาตให้ส่งรายงานไปยัง ProtonDB",
     "enableStoreBadge": "เปิดใช้งานตรารับรองในหน้าร้านค้า",

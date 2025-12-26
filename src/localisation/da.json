@@ -30,6 +30,7 @@
     "submit": "INDSEND",
     "login": "Log ind",
     "loading": "...",
+    "noReport": "INGEN RAPPORT",
     "disableSubmit": "Deaktiver indsendelse",
     "disableSubmitDesc": "Skjul indsendelsesknappen, der tillader bidrag af rapporter til ProtonDB",
     "enableStoreBadge": "Aktiver mærke på butikssider",

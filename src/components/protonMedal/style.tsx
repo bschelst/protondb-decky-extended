@@ -163,14 +163,15 @@ export default (
     }
 
     .protondb-decky-submit-button {
-      background: #646464;
-      border: 1px solid #1a1a1a;
+      background: rgb(166, 166, 166);
+      border: none;
       border-radius: 8px;
       padding: 6px 18px;
       display: flex;
       align-items: center;
       justify-content: center;
       font-family: Abel, "Motiva Sans", Arial, Helvetica, sans-serif;
+      color: #000000;
     }
 
     .protondb-decky-submit-button.gpfocus, .protondb-decky-submit-button:hover {
@@ -185,7 +186,6 @@ export default (
     }
 
     .protondb-decky-submit-button > div > svg {
-      color: #ffffff;
       width: 28px;
       height: 28px;
     }
@@ -193,7 +193,6 @@ export default (
     .protondb-decky-submit-button > span {
       margin-left: 10px;
       font-size: 24px;
-      color: #ffffff;
       white-space: nowrap;
       line-height: 24px;
     }

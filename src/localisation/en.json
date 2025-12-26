@@ -30,6 +30,7 @@
     "submit": "SUBMIT",
     "login": "Login",
     "loading": "...",
+    "noReport": "NO REPORT",
     "disableSubmit": "Disable Submit",
     "disableSubmitDesc": "Hide the submit button that allows contributing reports to ProtonDB",
     "enableStoreBadge": "Enable Badge on Store Pages",

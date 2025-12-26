@@ -114,7 +114,7 @@ export default function ProtonMedal({ hideSubmit = false, context = 'library', a
     }
   }, [context])
 
-  const tierClass = `protondb-decky-indicator-${protonDBTier}` as const
+  const tierClass = `protondb-decky-indicator-${protonDBTier || 'silver'}` as const
   const nativeClass = linuxSupport ? 'protondb-decky-indicator-native' : ''
   const sizeClass = `protondb-decky-indicator-${settings.size || 'regular'
     }` as const
@@ -148,7 +148,7 @@ export default function ProtonMedal({ hideSubmit = false, context = 'library', a
       className={containerClassName}
       style={containerStyle}
     >
-      {protonDBTier && show && !loading &&
+      {show && !loading &&
         <>
           {style}
           <div style={{ display: 'flex', gap: '8px' }}>
@@ -174,11 +174,15 @@ export default function ProtonMedal({ hideSubmit = false, context = 'library', a
                 <FaReact />
               </div>
               <span>
-                {settings.size === 'small' ||
+                {protonDBTier ? (
+                  settings.size === 'small' ||
                   (settings.size === 'minimalist' &&
                     settings.labelTypeOnHover !== 'regular')
                   ? t(`tierMin${protonDBTier}`)
-                  : t(`tier${protonDBTier}`)}
+                  : t(`tier${protonDBTier}`)
+                ) : (
+                  t('noReport')
+                )}
               </span>
             </DeckButton>
             {!settings.disableSubmit && !hideSubmit && (

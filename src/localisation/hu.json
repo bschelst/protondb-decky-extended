@@ -30,6 +30,7 @@
     "submit": "BEKÜLDÉS",
     "login": "Bejelentkezés",
     "loading": "...",
+    "noReport": "NINCS JELENTÉS",
     "disableSubmit": "Beküldés letiltása",
     "disableSubmitDesc": "A beküldés gomb elrejtése, amely lehetővé teszi jelentések beküldését a ProtonDB-be",
     "enableStoreBadge": "Jelvény engedélyezése az áruházi oldalakon",

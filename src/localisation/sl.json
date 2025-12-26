@@ -30,6 +30,7 @@
     "submit": "POŠLJI",
     "login": "Prijava",
     "loading": "...",
+    "noReport": "NI POROČILA",
     "disableSubmit": "Onemogoči pošiljanje",
     "disableSubmitDesc": "Skrij gumb za pošiljanje, ki omogoča prispevanje poročil v ProtonDB",
     "enableStoreBadge": "Omogoči značko na straneh trgovine",

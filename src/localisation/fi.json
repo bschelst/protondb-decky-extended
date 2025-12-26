@@ -30,6 +30,7 @@
     "submit": "LÄHETÄ",
     "login": "Kirjaudu sisään",
     "loading": "...",
+    "noReport": "EI RAPORTTIA",
     "disableSubmit": "Poista lähetys käytöstä",
     "disableSubmitDesc": "Piilota lähetyspainike, joka mahdollistaa raporttien lähettämisen ProtonDB:hen",
     "enableStoreBadge": "Ota merkki käyttöön kauppasivuilla",

@@ -30,6 +30,7 @@
     "submit": "提交",
     "login": "登入",
     "loading": "...",
+    "noReport": "無報告",
     "disableSubmit": "停用提交",
     "disableSubmitDesc": "隱藏允許向ProtonDB提交報告的提交按鈕",
     "enableStoreBadge": "在商店頁面啟用徽章",

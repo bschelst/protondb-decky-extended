@@ -30,6 +30,7 @@
     "submit": "INVIA",
     "login": "Accedi",
     "loading": "...",
+    "noReport": "NESSUN RAPPORTO",
     "disableSubmit": "Disabilita invio",
     "disableSubmitDesc": "Nascondi il pulsante di invio che consente di contribuire rapporti a ProtonDB",
     "enableStoreBadge": "Abilita badge sulle pagine del negozio",

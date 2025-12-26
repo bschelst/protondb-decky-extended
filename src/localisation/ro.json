@@ -30,6 +30,7 @@
     "submit": "TRIMITE",
     "login": "Autentificare",
     "loading": "...",
+    "noReport": "FĂRĂ RAPORT",
     "disableSubmit": "Dezactivați trimiterea",
     "disableSubmitDesc": "Ascundeți butonul de trimitere care permite contribuirea rapoartelor către ProtonDB",
     "enableStoreBadge": "Activați ecusonul pe paginile magazinului",

@@ -30,6 +30,7 @@
     "submit": "提交",
     "login": "登录",
     "loading": "...",
+    "noReport": "无报告",
     "disableSubmit": "禁用提交",
     "disableSubmitDesc": "隐藏允许向ProtonDB提交报告的提交按钮",
     "enableStoreBadge": "在商店页面启用徽章",

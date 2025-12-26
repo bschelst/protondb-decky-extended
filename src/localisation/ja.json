@@ -30,6 +30,7 @@
     "submit": "送信",
     "login": "ログイン",
     "loading": "...",
+    "noReport": "レポートなし",
     "disableSubmit": "送信を無効化",
     "disableSubmitDesc": "ProtonDBへのレポート送信を可能にする送信ボタンを非表示にする",
     "enableStoreBadge": "ストアページでバッジを有効化",
