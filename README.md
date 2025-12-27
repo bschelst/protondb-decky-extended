@@ -38,6 +38,14 @@ If you don't want to submit reports, you can disable the submit badge.
 
 Translations were changed/added using AI, beause I don't speak all those languages. If something is wrong, please let me know.
 
+## Support
+
+The plugin was tested on:
+ - SteamOS 3.9 - Decky Loader v.3.2.1 - SteamClient023 - Steam Deck LCD. 
+ - Ubuntu 25.10- Decky Loader v.3.2.1 - SteamClient023 
+ - Bazitte 43 - Nvidia version - Decky Loader v.3.2.1 - SteamClient023 
+
+As I don't have a Steam Deck OLED, I'm afraid I cannot test it on Steam Deck OLED. If that's a must, you can sponsor me ;)
 
 ## Decky Loader
 

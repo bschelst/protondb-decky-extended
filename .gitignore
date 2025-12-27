@@ -9,7 +9,7 @@ lib-cov
 *.swp
 *rollup*
 *node_modules*
-*.git*
+*.git
 *.vscode*
 *.claude*
 CLAUDE.md
