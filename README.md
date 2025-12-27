@@ -24,17 +24,17 @@ The submit button can be enabled or disabled in the plugin settings.
 The original protondb-decky plugin is no longer maintained and has been archived. Additionally, submitting ProtonDB reports required several manual steps outside Game Mode.
 
 This plugin was created to:
-- Keep ProtonDB badges available on Steam Deck
-- Simplify report submission
-- Allow everything to be done directly from the game page in Game Mode
+- Keep ProtonDB badges available on Steam Deck/Steam Client Bid mode.
+- Simplify report submission.
+- Allow submission to be done directly from the game page in Game Mode.
 
 ---
 
 ## 🛠️ Features & Options
 
 - **Badge size**: Regular, Small, or Minimalist (icon-only)
-- **Badge position**: Multiple positions around the game header
-- **Submit button toggle**: Disable report submission if desired
+- **Badge position**: Multiple positions around the game header. (Hero)
+- **Submit button toggle**: Disable report submission if desired.
 
 ---
 
@@ -55,9 +55,9 @@ If you spot an incorrect or awkward translation, feedback or pull requests are w
 ## 🧪 Compatibility & Testing
 
 Tested on:
-- **SteamOS 3.9** — Steam Deck LCD - Decky Loader v3.2.1 — SteamClient023__
-- **Ubuntu 25.10** — Steam Big Picture Mode - Decky Loader v3.2.1 — SteamClient023__
-- **Bazzite 43 (NVIDIA)** - Steam Big Picture Mode - Decky Loader v3.2.1 — SteamClient023__
+- **SteamOS 3.9** — Steam Deck LCD - Decky Loader v3.2.1 — SteamClient023
+- **Ubuntu 25.10** — Steam Big Picture Mode - Decky Loader v3.2.1 — SteamClient023
+- **Bazzite 43 (NVIDIA)** - Steam Big Picture Mode - Decky Loader v3.2.1 — SteamClient023
 
 Steam Deck OLED has not been tested yet, because I don't own a Steam Deck OLED. Feel free to send me one.
 
