@@ -1,135 +1,119 @@
 # ProtonDB Badges eXtended 🎮
 
-Display tappable **ProtonDB badges** directly on your game pages — eXtended edition.
+[![Latest Release](https://img.shields.io/github/v/release/bschelst/protondb-decky-extended?label=version)](https://github.com/bschelst/protondb-decky-extended/releases)
+[![Decky Loader](https://img.shields.io/badge/Decky-Loader-blue)](https://github.com/SteamDeckHomebrew/decky-loader)
+[![License](https://img.shields.io/github/license/bschelst/protondb-decky-extended)](LICENSE)
+
+Display **tappable ProtonDB badges** directly on your Steam library game pages — eXtended edition.
 
 ![ProtonDB Badges](./assets/screenshot.jpg)
 
 ---
 
-## ⚙️ How it works
+## ⚙️ What it does
 
-This plugin retrieves ProtonDB ratings from the ProtonDB API and displays them as a tappable badge on each game’s page. Selecting the badge opens the corresponding ProtonDB page for that game.
+ProtonDB Badges eXtended retrieves ProtonDB ratings via the ProtonDB API and overlays them as a tappable badge on each game’s library page. Tapping the badge opens the corresponding ProtonDB page.
 
-It is an extended and actively maintained evolution of the original **protondb-decky** plugin. In addition to displaying badges, it introduces a **Submit** button that allows users to send ProtonDB reports directly from their Steam library, without leaving Game Mode.  
-The submit button can be enabled or disabled via the plugin’s settings.
-
----
-
-## ✨ Why the eXtended plugin was created
-
-I really like the protondb-decky plugin and consider it a must-have on the Steam Deck.  
-However, the original plugin is no longer maintained and has been archived. At the same time, submitting ProtonDB reports felt unnecessarily cumbersome—opening a browser, searching for the game, and navigating multiple steps.
-
-This plugin was created to provide a more streamlined experience: the ability to submit a ProtonDB report directly from the game page itself, using a simple and accessible button in Game Mode.
+This plugin is an actively maintained extension of the original *protondb-decky* plugin and adds a **Submit** button, allowing users to submit ProtonDB reports **directly from Game Mode**, without opening a browser.  
+The submit button can be enabled or disabled in the plugin settings.
 
 ---
 
-## 🛠️ Options
+## ✨ Why this plugin exists
 
-### 📏 Size
-Choose between **Regular**, **Small**, and **Minimalist** (no text).
+The original protondb-decky plugin is no longer maintained and has been archived. Additionally, submitting ProtonDB reports required several manual steps outside Game Mode.
 
-### 📍 Position
-Place the badge in different corners of the game page header.(HERO area)
+This plugin was created to:
+- Keep ProtonDB badges available on Steam Deck
+- Simplify report submission
+- Allow everything to be done directly from the game page in Game Mode
 
-### 🚫 Disable Submit
-If you don’t want to submit reports, the submit badge can be disabled entirely.
+---
+
+## 🛠️ Features & Options
+
+- **Badge size**: Regular, Small, or Minimalist (icon-only)
+- **Badge position**: Multiple positions around the game header
+- **Submit button toggle**: Disable report submission if desired
 
 ---
 
 ## ⚠️ Limitations
 
-**Store Pages**  
-ProtonDB badges are currently **not supported on Steam Store pages** due to Steam’s security architecture. Store pages run in an isolated browsing context that cannot be accessed by Decky plugins.  
-Badges work on **library game pages only**.
+**Steam Store pages are not supported.**  
+Due to Steam’s security model, Decky plugins cannot access Store pages. Badges are shown on **library game pages only**.
 
 ---
 
 ## 🌍 Translations
 
-Translations were added or updated using AI, as I don’t speak all supported languages.  
-If you notice any issues or incorrect translations, please let me know.
+Translations were added or updated using AI.  
+If you spot an incorrect or awkward translation, feedback or pull requests are welcome.
 
 ---
 
-## 🧪 Support & Testing
+## 🧪 Compatibility & Testing
 
-The plugin has been tested on:
+Tested on:
+- **SteamOS 3.9** — Steam Deck LCD  
+- **Ubuntu 25.10** — Steam Big Picture  
+- **Bazzite 43 (NVIDIA)**  
 
-- **SteamOS 3.9** — Decky Loader v3.2.1 — SteamClient023 — Steam Deck LCD  
-- **Ubuntu 25.10** — Decky Loader v3.2.1 — SteamClient023  
-- **Bazzite 43** (NVIDIA) — Decky Loader v3.2.1 — SteamClient023  
+Decky Loader v3.2.1 — SteamClient023
 
-I don’t own a Steam Deck OLED, so I can’t test on that device myself.  
-If that’s a must-have… sponsoring might help 😉  
+Steam Deck OLED has not been tested yet.
 
 ---
 
 ## 💖 Sponsoring
 
-If you find this project useful and would like to support its continued development, you can sponsor it using one of the platforms below.
+If you find this plugin useful and want to support its continued development, you can sponsor the project.
 
-Sponsorship helps with:
-- Ongoing maintenance and bug fixes  
-- Adding new features and improvements  
-- Keeping the project free and open-source  
-
-Your support—small or large—is genuinely appreciated and helps keep this project moving forward.
+Your support helps with:
+- Maintenance and bug fixes  
+- New features and improvements  
+- Keeping the plugin free and open-source  
 
 ### ❤️ Support the project
 
 - 🐙 **GitHub Sponsors**  
   https://github.com/sponsors/bschelst
-
 - ☕ **Ko-fi**  
   https://ko-fi.com/bschelst
-
 - ☕ **Buy Me a Coffee**  
   https://www.buymeacoffee.com/bschelst
 
 ---
 
-## 🧩 Decky Loader
+## 🧩 Requirements
 
-This plugin requires **Decky Loader**:  
+- Steam Deck or Linux PC using Steam Big Picture
+- Decky Loader installed
+- Game Mode
+
+Decky Loader:  
 https://github.com/SteamDeckHomebrew/decky-loader
 
 ---
 
 ## 📦 Installation (Decky Loader)
 
-Follow these steps to install **ProtonDB Badges eXtended** manually.  
-(The plugin is not available in the Decky store yet.)
+> The plugin is not available in the Decky Store yet and must be installed manually.
 
-### ✅ Requirements
-- Steam Deck or Steam Big Picture on Linux  
-- Decky Loader installed  
-- Steam Deck in **Game Mode**
+1. Download the **latest `.zip` release**:  
+   https://github.com/bschelst/protondb-decky-extended/releases
 
-### 🚀 Installation steps
+2. Open **Game Mode** and launch **Decky Loader**.
 
-1. **Download the latest release**
-   - Open the releases page:  
-     https://github.com/bschelst/protondb-decky-extended/releases
-   - Download the **latest `.zip` file**.
+3. Go to **Decky Settings → Plugins → Install from ZIP**.
 
-2. **Open Decky Loader**
-   - Switch to **Game Mode**.
-   - Open the **Decky Loader** menu (⋯ button).
+4. Select the downloaded `protondb-decky-extended-<version>.zip`.
 
-3. **Install the plugin**
-   - Go to **Decky Settings** → **Plugins**.
-   - Select **Install from ZIP** (or **Upload Plugin**, depending on Decky version).
-   - Choose the downloaded `protondb-decky-extended-<version>.zip` file.
+5. Enable the plugin.
 
-4. **Enable the plugin**
-   - Ensure the plugin is enabled in Decky.
-   - ProtonDB Badges eXtended will now appear automatically for supported games in your library.
+The badges will appear automatically on supported games in your library.
 
 ### 🔄 Updating
 
-To update the plugin:
-- Download the latest release ZIP  
-- Reinstall it via **Install from ZIP** in Decky Loader  
-
+To update, install the latest ZIP via Decky Loader.  
 Existing settings are preserved.
