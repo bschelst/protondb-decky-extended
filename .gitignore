@@ -53,3 +53,4 @@ yalc.lock
 
 # Ignore output folder
 backend/out
+deliverables/
