@@ -103,3 +103,10 @@ Follow these steps to install **ProtonDB Badges eXtended** using Decky Loader, m
    - Once installed, ensure the plugin is enabled in Decky.
    - The ProtonDB Badges eXtended features will now appear automatically for supported games in your library.
 
+### Updating
+
+To update the plugin:
+- Download the latest release ZIP
+- Reinstall it via **Install from ZIP** in Decky Loader  
+(Existing settings are preserved.)
+
