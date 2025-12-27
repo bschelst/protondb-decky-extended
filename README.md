@@ -47,6 +47,29 @@ The plugin was tested on:
 
 As I don't have a Steam Deck OLED, I'm afraid I cannot test it on Steam Deck OLED. If that's a must, you can sponsor me ;)
 
+## 💖 Sponsoring
+
+If you find this project useful and would like to support its continued development, you can sponsor it using one of the platforms below.
+
+Sponsorship helps with:
+- Ongoing maintenance and bug fixes
+- Adding new features and improvements
+- Keeping the project free and open-source
+
+Your support—small or large—is genuinely appreciated and helps keep this project moving forward.
+
+### ❤️ Support the project
+
+- 🐙 **GitHub Sponsors**
+  https://github.com/sponsors/bschelst
+
+- ☕ **Ko-fi**
+  https://ko-fi.com/bschelst
+
+- ☕ **Buy Me a Coffee**
+  https://www.buymeacoffee.com/bschelst
+
+
 ## Decky Loader
 
 This plugin requires [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader).
