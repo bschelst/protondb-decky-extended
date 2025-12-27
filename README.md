@@ -1,6 +1,6 @@
 # ProtonDB Badges eXtended 🎮
 
-Display tappable **ProtonDB badges** directly on your game pages — extended edition.
+Display tappable **ProtonDB badges** directly on your game pages — eXtended edition.
 
 ![ProtonDB Badges](./assets/screenshot.jpg)
 
@@ -30,7 +30,7 @@ This plugin was created to provide a more streamlined experience: the ability to
 Choose between **Regular**, **Small**, and **Minimalist** (no text).
 
 ### 📍 Position
-Place the badge in different corners of the game page header.
+Place the badge in different corners of the game page header.(HERO area)
 
 ### 🚫 Disable Submit
 If you don’t want to submit reports, the submit badge can be disabled entirely.
