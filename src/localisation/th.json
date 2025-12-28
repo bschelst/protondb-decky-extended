@@ -1,4 +1,6 @@
 {
+    "sectionLibrary": "Library",
+    "sectionStore": "Store",
     "badgePosition": "ตําแหน่งตรารับรอง",
     "badgePositionDescription": "ตำแหน่งของตรารับรองในหน้าเกมส์ส่วนบน",
     "badgeSize": "ขนาดตรารับรอง",

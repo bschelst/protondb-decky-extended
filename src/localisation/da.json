@@ -1,4 +1,6 @@
 {
+    "sectionLibrary": "Library",
+    "sectionStore": "Store",
     "badgePosition": "Placering af mærke",
     "badgePositionDescription": "Placer emblemet i spillets sidehoved",
     "badgeSize": "Mærkets størrelse",

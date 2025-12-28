@@ -1,4 +1,6 @@
 {
+    "sectionLibrary": "Library",
+    "sectionStore": "Store",
     "badgePosition": "徽章位置",
     "badgePositionDescription": "顯示在遊戲詳細資料頁面的位置",
     "badgeSize": "徽章尺寸",

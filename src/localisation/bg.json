@@ -1,4 +1,6 @@
 {
+    "sectionLibrary": "Library",
+    "sectionStore": "Store",
     "badgePosition": "Позиция на значката",
     "badgePositionDescription": "Позиционирайте значката в заглавието на страницата на играта",
     "badgeSize": "Размер на значката",

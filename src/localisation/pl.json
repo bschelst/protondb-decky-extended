@@ -1,4 +1,6 @@
 {
+    "sectionLibrary": "Library",
+    "sectionStore": "Store",
     "badgePosition": "Pozycja odznaki",
     "badgePositionDescription": "Umieść odznakę wewnątrz nagłówka strony gry",
     "badgeSize": "Rozmiar odznaki",

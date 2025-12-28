@@ -104,7 +104,27 @@ export default function Index() {
           )}
         </div>
       )}
-      <DeckPanelSection title={t('settings')}>
+      <DeckPanelSection title={t('sectionLibrary')}>
+        <DeckPanelSectionRow>
+          <ToggleField
+            label={t('enableLibraryBadge')}
+            description={t('enableLibraryBadgeDesc')}
+            checked={settings.enableLibraryBadge}
+            onChange={(checked: boolean) => {
+              setEnableLibraryBadge(checked)
+            }}
+          />
+        </DeckPanelSectionRow>
+        <DeckPanelSectionRow>
+          <ToggleField
+            label={t('disableSubmit')}
+            description={t('disableSubmitDesc')}
+            checked={settings.disableSubmit}
+            onChange={(checked: boolean) => {
+              setDisableSubmit(checked)
+            }}
+          />
+        </DeckPanelSectionRow>
         <DeckPanelSectionRow>
           <DropdownItem
             label={t('badgeSize')}
@@ -173,27 +193,7 @@ export default function Index() {
           />
         </DeckPanelSectionRow>
       </DeckPanelSection>
-      <DeckPanelSection title="eXtended">
-        <DeckPanelSectionRow>
-          <ToggleField
-            label={t('disableSubmit')}
-            description={t('disableSubmitDesc')}
-            checked={settings.disableSubmit}
-            onChange={(checked: boolean) => {
-              setDisableSubmit(checked)
-            }}
-          />
-        </DeckPanelSectionRow>
-        <DeckPanelSectionRow>
-          <ToggleField
-            label={t('enableLibraryBadge')}
-            description={t('enableLibraryBadgeDesc')}
-            checked={settings.enableLibraryBadge}
-            onChange={(checked: boolean) => {
-              setEnableLibraryBadge(checked)
-            }}
-          />
-        </DeckPanelSectionRow>
+      <DeckPanelSection title={t('sectionStore')}>
         <DeckPanelSectionRow>
           <ToggleField
             label={t('enableStoreBadge')}

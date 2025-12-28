@@ -1,4 +1,6 @@
 {
+    "sectionLibrary": "Library",
+    "sectionStore": "Store",
     "badgePosition": "Jelvény pozíció",
     "badgePositionDescription": "A jelvény pozíciója a játékoldal fejlécében",
     "badgeSize": "Jelvény méret",

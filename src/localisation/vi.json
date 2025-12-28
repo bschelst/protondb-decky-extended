@@ -1,4 +1,6 @@
 {
+    "sectionLibrary": "Library",
+    "sectionStore": "Store",
     "badgePosition": "Vị trí huy hiệu",
     "badgePositionDescription": "Đặt vị trí huy hiệu trong tiêu đề trang trò chơi",
     "badgeSize": "Kích thước huy hiệu",

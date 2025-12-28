@@ -12,8 +12,7 @@ export type Settings = {
   storeBadgePosition: 'bc' | 'bl' | 'br' | 'tm'
 }
 
-// Not using the React context here as this approach is simpler.
-export const SettingsContext = new BehaviorSubject<Settings>({
+const DEFAULT_SETTINGS: Settings = {
   size: 'regular',
   position: 'tl',
   labelTypeOnHover: 'off',
@@ -21,7 +20,10 @@ export const SettingsContext = new BehaviorSubject<Settings>({
   enableLibraryBadge: true,
   enableStoreBadge: true,
   storeBadgePosition: 'bc'
-})
+}
+
+// Not using the React context here as this approach is simpler.
+export const SettingsContext = new BehaviorSubject<Settings>(DEFAULT_SETTINGS)
 const LoadingContext = new BehaviorSubject(true)
 
 function updateSettings(
@@ -35,8 +37,12 @@ function updateSettings(
 
 export function loadSettings() {
   LoadingContext.next(true)
-  call<[string, Settings], Settings>('get_setting', 'settings', SettingsContext.value)
-    .then(settings => SettingsContext.next(settings))
+  call<[string, Settings], Settings>('get_setting', 'settings', DEFAULT_SETTINGS)
+    .then(settings => {
+      // Merge with defaults to handle missing fields from older versions
+      const mergedSettings = { ...DEFAULT_SETTINGS, ...settings }
+      SettingsContext.next(mergedSettings)
+    })
     .catch(console.error)
     .finally(() => LoadingContext.next(false))
 }

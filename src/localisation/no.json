@@ -1,4 +1,6 @@
 {
+    "sectionLibrary": "Library",
+    "sectionStore": "Store",
     "badgePosition": "Merkeposisjon",
     "badgePositionDescription": "Plasser merket i spillsidens overskrift",
     "badgeSize": "Merkestørrelse",

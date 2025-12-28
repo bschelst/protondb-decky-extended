@@ -1,4 +1,6 @@
 {
+    "sectionLibrary": "Library",
+    "sectionStore": "Store",
     "badgePosition": "Rozet Konumu",
     "badgePositionDescription": "Rozeti oyun sayfası başlığına konumlandırın",
     "badgeSize": "Rozet Boyutu",

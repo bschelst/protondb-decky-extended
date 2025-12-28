@@ -1,4 +1,6 @@
 {
+    "sectionLibrary": "Library",
+    "sectionStore": "Store",
     "badgePosition": "Položaj značke",
     "badgePositionDescription": "Postavite značko v glavo strani z igro",
     "badgeSize": "Velikost značke",

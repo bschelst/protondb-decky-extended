@@ -1,4 +1,6 @@
 {
+    "sectionLibrary": "Library",
+    "sectionStore": "Store",
     "badgePosition": "Pozice Odznaku",
     "badgePositionDescription": "Umístění odznaku v záhlaví herní stránky",
     "badgeSize": "Velikost Odznaku",

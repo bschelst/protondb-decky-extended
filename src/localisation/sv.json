@@ -1,4 +1,6 @@
 {
+    "sectionLibrary": "Library",
+    "sectionStore": "Store",
     "badgePosition": "Märkesposition",
     "badgePositionDescription": "Placera märket i spelsidans rubrik",
     "badgeSize": "Märkesstorlek",

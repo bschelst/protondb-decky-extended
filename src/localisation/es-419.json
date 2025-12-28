@@ -1,4 +1,6 @@
 {
+    "sectionLibrary": "Library",
+    "sectionStore": "Store",
     "badgePosition": "Posición de medalla",
     "badgePositionDescription": "Posición de la medalla dentro de la página encabezado del juego",
     "badgeSize": "Tamaño de medalla",

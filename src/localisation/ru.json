@@ -1,4 +1,6 @@
 {
+    "sectionLibrary": "Library",
+    "sectionStore": "Store",
     "badgePosition": "Позиция значка",
     "badgePositionDescription": "Где будет значок на фоне страницы игры",
     "badgeSize": "Размер значка",

@@ -1,4 +1,6 @@
 {
+    "sectionLibrary": "Library",
+    "sectionStore": "Store",
     "badgePosition": "Θέση Σήματος",
     "badgePositionDescription": "Τοποθετήστε το σήμα στην κεφαλίδα της σελίδας παιχνιδιού",
     "badgeSize": "Μέγεθος Σήματος",

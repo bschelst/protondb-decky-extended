@@ -7,7 +7,13 @@
 Display **tappable ProtonDB badges** directly on your Steam library game pages — eXtended edition.
 And since version v0.0.5, this also contains a small overlay on the store!
 
+Library view:
+
 ![ProtonDB Badges](./assets/screenshot.jpg)
+
+Store view:
+
+![ProtonDB Badges](./assets/screenshot_store.jpg)
 
 ---
 

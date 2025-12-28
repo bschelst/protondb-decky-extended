@@ -1,4 +1,6 @@
 {
+    "sectionLibrary": "Library",
+    "sectionStore": "Store",
     "badgePosition": "バッジの位置",
     "badgePositionDescription": "ゲームページヘッダー内のバッジの位置",
     "badgeSize": "バッジサイズ",

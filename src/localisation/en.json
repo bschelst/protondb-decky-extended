@@ -1,4 +1,6 @@
 {
+    "sectionLibrary": "Library",
+    "sectionStore": "Store",
     "badgePosition": "Badge Position",
     "badgePositionDescription": "Position the badge within the game page header",
     "badgeSize": "Badge Size",

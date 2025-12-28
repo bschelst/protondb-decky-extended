@@ -1,4 +1,6 @@
 {
+    "sectionLibrary": "Library",
+    "sectionStore": "Store",
     "badgePosition": "Merkin Sijainti",
     "badgePositionDescription": "Sijoita merkki pelin sivun otsikkoon",
     "badgeSize": "Merkin koko",

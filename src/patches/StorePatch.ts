@@ -75,7 +75,7 @@ async function injectBadgeIntoStore(appId: string) {
       const badge = document.createElement('div');
       badge.id = 'protondb-store-badge';
       badge.style.cssText = 'position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); z-index: 999999; background: ${tierColor.bg}; padding: 10px 20px; border-radius: 8px; color: ${tierColor.text}; font-family: Arial; font-size: 14px; cursor: pointer; border: 2px solid ${tierColor.border};';
-      badge.innerHTML = '<span style="margin-right: 8px;">⚛️</span> PROTONDB: ${tierLabel}';
+      badge.innerHTML = '<span style="margin-right: 8px; font-size: 24px; vertical-align: middle;">⚛️</span> PROTONDB: ${tierLabel}';
       badge.onclick = function() { window.open('https://www.protondb.com/app/${appId}', '_blank'); };
       document.body.appendChild(badge);
     })();

@@ -1,4 +1,6 @@
 {
+    "sectionLibrary": "Library",
+    "sectionStore": "Store",
     "badgePosition": "Poziția Ecusonului",
     "badgePositionDescription": "Poziționați ecusonul în interiorul antetului paginii de joc",
     "badgeSize": "Dimensiunea Ecusonului",
