@@ -10,6 +10,7 @@ All notable changes to the Protondb-decky-eXtended plugin are documented in this
 - Dynamic hero height detection for accurate bottom positioning
 - Black border on badges when focused/selected
 - Controller navigation support between badges
+- Renamed plugin from "ProntonDB Decky eXtented" to "ProntonDB eXtended" in Decky.
 
 ### Known issues
 - Store page/Library badges disabled by default
