@@ -7,6 +7,9 @@ export type Settings = {
   position: 'tl' | 'tr' | 'tm' | 'bl' | 'br' | 'bm'
   labelTypeOnHover: 'off' | 'small' | 'regular'
   disableSubmit: boolean
+  enableLibraryBadge: boolean
+  enableStoreBadge: boolean
+  storeBadgePosition: 'bc' | 'bl' | 'br' | 'tm'
 }
 
 // Not using the React context here as this approach is simpler.
@@ -14,7 +17,10 @@ export const SettingsContext = new BehaviorSubject<Settings>({
   size: 'regular',
   position: 'tl',
   labelTypeOnHover: 'off',
-  disableSubmit: false
+  disableSubmit: false,
+  enableLibraryBadge: true,
+  enableStoreBadge: true,
+  storeBadgePosition: 'bc'
 })
 const LoadingContext = new BehaviorSubject(true)
 
@@ -64,5 +70,17 @@ export const useSettings = () => {
     updateSettings('disableSubmit', value)
   }
 
-  return { settings, setSize, setPosition, setLabelOnHover, setDisableSubmit, loading }
+  function setEnableLibraryBadge(value: Settings['enableLibraryBadge']) {
+    updateSettings('enableLibraryBadge', value)
+  }
+
+  function setEnableStoreBadge(value: Settings['enableStoreBadge']) {
+    updateSettings('enableStoreBadge', value)
+  }
+
+  function setStoreBadgePosition(value: Settings['storeBadgePosition']) {
+    updateSettings('storeBadgePosition', value)
+  }
+
+  return { settings, setSize, setPosition, setLabelOnHover, setDisableSubmit, setEnableLibraryBadge, setEnableStoreBadge, setStoreBadgePosition, loading }
 }

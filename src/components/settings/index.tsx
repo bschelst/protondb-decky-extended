@@ -33,7 +33,7 @@ type ExtendedButtonItemProps = ButtonItemProps & {
 const DeckButtonItem = ButtonItem as FC<ExtendedButtonItemProps>
 
 export default function Index() {
-  const { settings, setSize, setPosition, setLabelOnHover, setDisableSubmit, loading } =
+  const { settings, setSize, setPosition, setLabelOnHover, setDisableSubmit, setEnableLibraryBadge, setEnableStoreBadge, loading } =
     useSettings()
   const t = useTranslations()
   const { status: originalPluginStatus, loading: pluginCheckLoading } = useOriginalPluginCheck()
@@ -58,6 +58,7 @@ export default function Index() {
     { data: 1, label: t('sizeSmall'), value: 'small' },
     { data: 2, label: t('sizeRegular'), value: 'regular' }
   ] as const
+
   if (loading) {
     return (
       <div
@@ -180,6 +181,26 @@ export default function Index() {
             checked={settings.disableSubmit}
             onChange={(checked: boolean) => {
               setDisableSubmit(checked)
+            }}
+          />
+        </DeckPanelSectionRow>
+        <DeckPanelSectionRow>
+          <ToggleField
+            label={t('enableLibraryBadge')}
+            description={t('enableLibraryBadgeDesc')}
+            checked={settings.enableLibraryBadge}
+            onChange={(checked: boolean) => {
+              setEnableLibraryBadge(checked)
+            }}
+          />
+        </DeckPanelSectionRow>
+        <DeckPanelSectionRow>
+          <ToggleField
+            label={t('enableStoreBadge')}
+            description={t('enableStoreBadgeDesc')}
+            checked={settings.enableStoreBadge}
+            onChange={(checked: boolean) => {
+              setEnableStoreBadge(checked)
             }}
           />
         </DeckPanelSectionRow>

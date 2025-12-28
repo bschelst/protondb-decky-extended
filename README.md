@@ -1,10 +1,11 @@
 # ProtonDB Badges eXtended 🎮
 
 [![Latest Release](https://img.shields.io/github/v/release/bschelst/protondb-decky-extended?label=version)](https://github.com/bschelst/protondb-decky-extended/releases)
-[![Decky Loader](https://img.shields.io/badge/Decky-Loader-blue)](https://github.com/SteamDeckHomebrew/decky-loader)
 [![License](https://img.shields.io/github/license/bschelst/protondb-decky-extended)](LICENSE)
+[![Decky Loader](https://img.shields.io/badge/Decky-Loader-blue)](https://github.com/SteamDeckHomebrew/decky-loader)
 
 Display **tappable ProtonDB badges** directly on your Steam library game pages — eXtended edition.
+And since version v0.0.5, this also contains a small overlay on the store!
 
 ![ProtonDB Badges](./assets/screenshot.jpg)
 
@@ -40,14 +41,18 @@ This plugin was created to:
 
 ## ⚠️ Limitations
 
-**Steam Store pages are not supported.**  
-Due to Steam’s security model, Decky plugins cannot access Store pages. Badges are shown on **library game pages only**.
+**ProtonDB device registration**  
+The first time you want to submit a report on Steam Deck, you will need to open the protondb website in order to register the Steam Deck.
+This is a limitation of the protondb website, and this is only a one-time action.
+
+**Steam Store page badges**  
+Currently the badges are visible as an overlay, which doesn't look the same as the badges on the library.
 
 ---
 
 ## 🌍 Translations
 
-Translations were added or updated using AI.  
+Translations were added or updated using AI, as I don't know yet how Crowdine works.'  
 If you spot an incorrect or awkward translation, feedback or pull requests are welcome.
 
 ---

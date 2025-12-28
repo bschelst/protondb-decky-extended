@@ -167,6 +167,11 @@ export default function ProtonMedal({ hideSubmit = false, context = 'library', a
     return <></>
   }
 
+  // Don't render library badge if disabled in settings
+  if (context === 'library' && !settings.enableLibraryBadge) {
+    return <></>
+  }
+
   const tierClass = `protondb-decky-indicator-${protonDBTier || 'silver'}` as const
   const nativeClass = linuxSupport ? 'protondb-decky-indicator-native' : ''
   const sizeClass = `protondb-decky-indicator-${settings.size || 'regular'
