@@ -55,9 +55,10 @@ This plugin was created to:
 The first time you want to submit a report on Steam Deck, you will need to open the protondb website in desktop mode in order to register the Steam Deck.
 This is a limitation of the protondb website, and this is only a one-time action.
 
-**Steam Store page badges**  
+**Steam Store page ProtonDB badges**  
 - Currently the badges are visible as an overlay, which doesn't look the same as the badges on the library.
 - It's currently not possible to click on the badge using an external controller.
+- Protondb badges are not available in store pages on Linux/Bazitte, and will currently only work on Steam Deck. (I need to check the possibities to make it available on Bazitte too)
 
 ---
 
