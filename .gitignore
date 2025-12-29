@@ -11,8 +11,7 @@ lib-cov
 *node_modules*
 *.git
 *.vscode*
-*.claude*
-CLAUDE.md
+
 package.sh
 *loc*
 protondb-decky-extended.zip
