@@ -11,12 +11,9 @@ lib-cov
 *node_modules*
 *.git
 *.vscode*
-
 package.sh
 *loc*
 protondb-decky-extended.zip
-
-
 pids
 logs
 results
