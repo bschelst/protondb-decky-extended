@@ -18,6 +18,9 @@ logs
 results
 tmp
 
+# Local deliveries in syntax CL[datetime]
+CL*
+
 # Coverage reports
 coverage
 
