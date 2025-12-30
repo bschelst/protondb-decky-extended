@@ -1,6 +1,10 @@
 # Changelog
 All important changes to the ProtonDB Badges plugin are documented here.
 
+## [1.2.0] - 2025-12-30
+
+- Changing release numbers & repo for Decky store submission
+
 ## [0.0.7] - 2025-12-28
 ### Added
 - timeout for ProtonDB API requests to avoid slow page loads

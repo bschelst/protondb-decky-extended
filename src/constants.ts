@@ -7,4 +7,4 @@ export const appTypes = {
   65536: 'playtest'
 }
 
-export const PLUGIN_VERSION = '0.0.7'
+export const PLUGIN_VERSION = '1.2.0'
