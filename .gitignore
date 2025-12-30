@@ -52,3 +52,6 @@ yalc.lock
 # Ignore output folder
 backend/out
 deliverables/
+
+# Local release script
+release.sh
