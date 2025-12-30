@@ -224,7 +224,7 @@ export default function Index() {
       </DeckPanelSection>
       <DeckPanelSection title="VERSION INFO">
         <DeckPanelSectionRow>
-          <Field label="eXtended" bottomSeparator="none">
+          <Field label="Plugin" bottomSeparator="none">
             {PLUGIN_VERSION}
           </Field>
         </DeckPanelSectionRow>
