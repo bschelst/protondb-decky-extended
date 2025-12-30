@@ -1,5 +1,5 @@
 # Changelog
-All important changes to the Protondb-decky-eXtended plugin are documented here.
+All important changes to the ProtonDB Badges plugin are documented here.
 
 ## [0.0.7] - 2025-12-28
 ### Added

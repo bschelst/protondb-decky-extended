@@ -1,10 +1,10 @@
-# ProtonDB Badges eXtended 🎮
+# ProtonDB Badges 🎮
 
-[![Latest Release](https://img.shields.io/github/v/release/bschelst/protondb-decky-extended?label=version)](https://github.com/bschelst/protondb-decky-extended/releases)
-[![License](https://img.shields.io/github/license/bschelst/protondb-decky-extended)](LICENSE)
+[![Latest Release](https://img.shields.io/github/v/release/bschelst/protondb-decky?label=version)](https://github.com/bschelst/protondb-decky/releases)
+[![License](https://img.shields.io/github/license/bschelst/protondb-decky)](LICENSE)
 [![Decky Loader](https://img.shields.io/badge/Decky-Loader-blue)](https://github.com/SteamDeckHomebrew/decky-loader)
 
-Display **tappable ProtonDB badges** directly on your Steam library game pages / Store pages — eXtended edition.
+Display **tappable ProtonDB badges** directly on your Steam library game pages / Store pages.
 
 
  Library view:
@@ -19,7 +19,7 @@ Display **tappable ProtonDB badges** directly on your Steam library game pages /
 
 ## ⚙️ What it does
 
-ProtonDB Badges eXtended retrieves ProtonDB ratings via the ProtonDB API and overlays them as a tappable badge on each game’s library page. Tapping the badge opens the corresponding ProtonDB page.
+ProtonDB Badges retrieves ProtonDB ratings via the ProtonDB API and overlays them as a tappable badge on each game's library page. Tapping the badge opens the corresponding ProtonDB page.
 
 This plugin is an actively maintained extension of the original *protondb-decky* plugin and adds a **Submit** button, allowing users to submit ProtonDB reports **directly from Game Mode**, from their library, without opening a browser.  
 The submit button can be enabled or disabled in the plugin settings.
@@ -115,8 +115,8 @@ https://github.com/SteamDeckHomebrew/decky-loader
 
 > The plugin is not available in the Decky Store **yet** and must be installed manually.
 
-1. Download the **latest `.zip` release**:  
-   https://github.com/bschelst/protondb-decky-extended/releases
+1. Download the **latest `.zip` release**:
+   https://github.com/bschelst/protondb-decky/releases
 
 2. Open **Game Mode** and launch **Decky Loader**.
 
@@ -124,7 +124,7 @@ https://github.com/SteamDeckHomebrew/decky-loader
 
 4. Go to **Decky Settings → Plugins → Install from ZIP**.
 
-5. Select the downloaded `protondb-decky-extended-<version>.zip`.
+5. Select the downloaded `protondb-decky-<version>.zip`.
 
 6. Restart steam client.
 

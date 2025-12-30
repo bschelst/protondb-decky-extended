@@ -1,11 +1,11 @@
 {
-  "name": "ProtonDB eXtended",
+  "name": "ProtonDB Badges",
   "author": "Schelstraete Bart",
   "flags": [],
   "api_version": 2,
   "publish": {
     "tags": ["protondb"],
-    "description": "Display tappable ProtonDB badges on your game pages, eXtended edition",
-    "image": "https://raw.githubusercontent.com/bschelst/protondb-decky-extended/main/assets/publish_image.png"
+    "description": "Display tappable ProtonDB badges on your game pages",
+    "image": "https://raw.githubusercontent.com/bschelst/protondb-decky/main/assets/publish_image.png"
   }
 }

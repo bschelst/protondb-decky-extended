@@ -1,7 +1,7 @@
 {
-  "name": "protondb-decky-extended",
-  "version": "0.0.7",
-  "description": "Display tappable ProtonDB badges on your game pages, eXtended",
+  "name": "protondb-decky",
+  "version": "1.2.0",
+  "description": "Display tappable ProtonDB badges on your game pages",
   "type": "module",
   "scripts": {
     "build": "shx rm -rf dist && rollup -c",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bschelst/protondb-decky-extended.git"
+    "url": "git+https://github.com/bschelst/protondb-decky.git"
   },
   "keywords": [
     "decky",
@@ -23,9 +23,9 @@
   "author": "Schelstraete Bart",
   "license": "GPL-2.0-or-later",
   "bugs": {
-    "url": "https://github.com/bschelst/protondb-decky-extended/issues"
+    "url": "https://github.com/bschelst/protondb-decky/issues"
   },
-  "homepage": "https://github.com/bschelst/protondb-decky-extended",
+  "homepage": "https://github.com/bschelst/protondb-decky",
   "devDependencies": {
     "@decky/rollup": "^1.0.1",
     "@decky/ui": "^4.7.1",

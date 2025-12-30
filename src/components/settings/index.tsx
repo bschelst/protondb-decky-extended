@@ -21,7 +21,7 @@ import { PLUGIN_VERSION } from '../../constants'
 import Spinner from '../spinner'
 import HelpModal from '../helpModal'
 
-const GITHUB_URL = 'https://github.com/bschelst/protondb-decky-extended'
+const GITHUB_URL = 'https://github.com/bschelst/protondb-decky'
 
 type ExtendedPanelSectionProps = PanelSectionProps & {
   children: ReactNode
